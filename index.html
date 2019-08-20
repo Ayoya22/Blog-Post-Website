@@ -34,11 +34,299 @@
 
                         <div class="card">
                             <h3>A brief history about Machine Learning</h3>
+                            <div class="post-data">
+                                <p>
+                                    1952 saw the first computer program which could learn as it ran.
+                                    It was a game which played checkers, created by Arthur Samuel.
+                                    Frank Rosenblatt designed the first artificial neural network in 1958, called Perceptron.
+                                    The main goal of this was pattern and shape recognition.
+                                    Another extremely early instance of a neural network came in 1959, when Bernard Widrow and Marcian Hoff created two models of them at Stanford University.
+                                    The first was called ADELINE, and it could detect binary patterns. For example, in a stream of bits, it could predict what the next one would be.
+                                    The next generation was called MADELINE, and it could eliminate echo on phone lines, so had a useful real world application. It is still in use today.
+                                    Despite the success of MADELINE, there was not much progress until the late 1970s for many reasons, mainly the popularity of the Von Neumann architecture.
+                                    This is an architecture where instructions and data are stored in the same memory, which is arguably simpler to understand than a neural network, and so many people built programs based on this.
+                                </p>
+                                <p class="para-">
+                                    1982 was the year in which interest in neural networks started to pick up again, when John Hopfield suggested creating a network which had bidirectional lines, similar to how neurons actually work.
+                                    Furthermore, in 1982, Japan announced it was focusing on more advanced neural networks, which incentivised American funding into the area, and thus created more research in the area.
+                                    Neural networks use back propagation (explained in detail in the Introduction to Neural Networks), and this important step came in 1986,
+                                    when three researchers from the Stanford psychology department decided to extend an algorithm created by Widrow and Hoff in 1962.
+                                    This therefore allowed multiple layers to be used in a neural network, creating what are known as ‘slow learners’, which will learn over a long period of time.
+                                </p>
+                                <p>
+                                    Also it is very important to note that,
+                                    <blockquote class="blockquote">
+                                        The late 1980s and 1990s did not bring much to the field. However in 1997, the IBM computer Deep Blue, which was a chess-playing computer, beat the world chess champion.
+                                        Since then, there have been many more advances in the field, such as in 1998, when research at AT&T Bell Laboratories on digit recognition resulted in good accuracy in
+                                        detecting handwritten postcodes from the US Postal Service. This used back-propagation, which, as stated above, is explained in detail on the Introduction to Neural Networks.
+                                    </blockquote>
+                                </p>
+                            </div>
                         </div>
 
+                        <!-- here, in this section, I,ll implement a basic model for simple cards -->
+
+                        <div id="usual" class="cards">
+                            <div class="flex-image-card">
+                                <div class="flex-info-1">
+                                    <div class="fake-user-img"> <img src="images/img1.png"/>
+                                    </div>
+                                    <h4 class="user-name">John Doe</h4>
+                                    <div class="grid-container-for-user-data">
+                                        <div class="grid-basic-user-info">
+                                            <h5><b>Career:</b> Machine Learning, Engineer</h5>
+                                        </div>
+                                        <div class="grid-basic-user-info">
+                                            <h5><b>Employed at:</b> Udacity</h5>
+                                        </div>
+                                        <div class="grid-basic-user-info">
+                                            <h5><b>Date Posted: </b><a href="#">July 06, 2019</a></h5>
+                                        </div>
+                                        <div class="grid-basic-user-info">
+                                            <h5><b>Short Bio</b></h5>
+                                            <div class="short-bio">
+                                            John Doe is a machine learning engineer that works at Udacity since a couple of years now. He is has developed numerous neural networks systems notably for
+                                            Self-driving cars and machinery in heavy production systems. He comes from England, is married and has two children, the family lives in the town of Manchester.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="blogger-links">
+                                        <div class="grid-social-media-container-links">
+                                            <div class="grid-social-media-element">
+                                                <a href="#" class="link-facebook">LinkedIn</a>
+                                            </div>
+                                            <div class="grid-social-media-element">
+                                                <a href="#" class="link-facebook">Twitter</a>
+                                            </div>
+                                            <div class="grid-social-media-element">
+                                                <a href="#" class="link-facebook">Facebook</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex-info-2">
+                                <h4><a href="https://www.techrepublic.com/article/github-the-top-10-programming-languages-for-machine-learning/" class="header-link" target="_blank">Python (Object-Oriented Language)</a></h4>
+                                <div class="fake-img" >
+                                    <a href="images/python.png"> <img src="images/python.png"> </a>
+                                </div>
+                                <p>More About Python</p>
+                                <div class="post-data">
+                                    <p class="para-italic">
+                                        Python is considered to be in the first place in the list of all AI development languages due to the simplicity. The syntaxes belonging to python are very simple and can be easily learnt.
+                                        Therefore, many AI algorithms can be easily implemented in it. Python takes short development time in comparison to other languages like Java, C++ or Ruby. Python supports object oriented,
+                                        functional as well as procedure oriented styles of programming. There are plenty of libraries in python, which make our tasks easier. For example: Numpy is a library for python that helps us to solve many scientific computations.
+                                        Also, we have Pybrain, which is for using machine learning in Python.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="most-liked" class="cards">
+                        <div class="flex-image-card">
+                            <div class="flex-info-1">
+                                <div class="fake-user-img"> <img src="images/img2.png"/>
+                                </div>
+                                <h4 class="user-name">Madeleine Monroe</h4>
+                                <div class="grid-container-for-user-data">
+                                    <div class="grid-basic-user-info">
+                                        <h5><b>Career:</b> Psychologist</h5>
+                                    </div>
+                                    <div class="grid-basic-user-info">
+                                        <h5><b>Employed at:</b>Faculty of social and Management Science</h5>
+                                    </div>
+                                    <div class="grid-basic-user-info">
+                                        <h5><b>Date Posted: </b><a href="#">April 5, 2019</a></h5>
+                                    </div>
+                                    <div class="grid-basic-user-info">
+                                        <h5><b>Short Bio</b></h5>
+                                        <div class="short-bio">
+                                            Madeleine Monroe is a machine learning engineer that works at Udacity since a couple of years now. He is has developed numerous neural networks systems notably for
+                                            Self-driving cars and machinery in heavy production systems. He comes from England, is married and has two children, the family lives in the town of Manchester.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="blogger-links">
+                                    <div class="grid-social-media-container-links">
+                                        <div class="grid-social-media-element">
+                                            <a href="#" class="link-facebook">LinkedIn</a>
+                                        </div>
+                                        <div class="grid-social-media-element">
+                                            <a href="#" class="link-facebook">Twitter</a>
+                                        </div>
+                                        <div class="grid-social-media-element">
+                                            <a href="#" class="link-facebook">Facebook</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex-info-2">
+                            <h4><a href="https://www.geeksforgeeks.org/top-5-best-programming-languages-for-artificial-intelligence-field/" class="header-link" target="_blank">R</a></h4>
+                            <div class="fake-img" >
+                                <a href="images/r.svg"> <img src="images/r.svg"> </a>
+                            </div>
+                            <p>More About R</p>
+                            <div class="post-data">
+                                <p class="para-italic">
+                                    R is one of the most effective language and environment for analyzing and manipulating the data for statistical purposes.
+                                    Using R, we can easily produce well-designed publication-quality plot, including mathematical symbols and formulae where needed.
+                                    Apart from being a general purpose language, R has numerous of packages like RODBC, Gmodels, Class and Tm which are used in the field of machine learning.
+                                    These packages make the implementation of machine learning algorithms easy, for cracking the business associated problems.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <div class="flex-image-card">
+                            <div class="flex-info-1">
+                                <div class="fake-user-img"> <img src="images/img3.jpg"/>
+                                </div>
+                                <h4 class="user-name">Fernando Torres</h4>
+                                <div class="grid-container-for-user-data">
+                                    <div class="grid-basic-user-info">
+                                        <h5><b>Career:</b> Mathematician</h5>
+                                    </div>
+                                    <div class="grid-basic-user-info">
+                                        <h5><b>Employed at:</b>Freelancer</h5>
+                                    </div>
+                                    <div class="grid-basic-user-info">
+                                        <h5><b>Date Posted: </b><a href="#">December 13, 2019</a></h5>
+                                    </div>
+                                    <div class="grid-basic-user-info">
+                                        <h5><b>Short Bio</b></h5>
+                                        <div class="short-bio">
+                                            Fernando Torres is a machine learning engineer that works at Udacity since a couple of years now. He is has developed numerous neural networks systems notably for
+                                            Self-driving cars and machinery in heavy production systems. He comes from England, is married and has two children, the family lives in the town of Manchester.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="blogger-links">
+                                    <div class="grid-social-media-container-links">
+                                        <div class="grid-social-media-element">
+                                            <a href="#" class="link-facebook">LinkedIn</a>
+                                        </div>
+                                        <div class="grid-social-media-element">
+                                            <a href="#" class="link-facebook">Twitter</a>
+                                        </div>
+                                        <div class="grid-social-media-element">
+                                            <a href="#" class="link-facebook">Facebook</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex-info-2">
+                            <h4><a href="https://www.geeksforgeeks.org/top-5-best-programming-languages-for-artificial-intelligence-field/" class="header-link" target="_blank">R</a></h4>
+                            <div class="fake-img" >
+                                <a href="images/Lisp.jpg"> <img src="images/Lisp.jpg"> </a>
+                            </div>
+                            <p>More About R</p>
+                            <div class="post-data">
+                                <p class="para-italic">
+                                    Lisp is one of the oldest and the most suited languages for the development in AI. It was invented by John McCarthy, the father of Artificial Intelligence in 1958.
+                                    It has the capability of processing the symbolic information effectively.
+                                    It is also known for its excellent prototyping capabilities and easy dynamic creation of new objects, with automatic garbage collection.
+                                    Its development cycle allows interactive evaluation of expressions and recompilation of functions or file while the program is still running.
+                                    Over the years, due to advancement, many of these features have migrated into many other languages thereby affecting the uniqueness of Lisp.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cards" id="most-viewed">
+                        <div class="flex-image-card">
+                            <div class="flex-info-1">
+                                <div class="fake-user-img"> <img src="images/img4.png"/>
+                                </div>
+                                <h4 class="user-name">Saitama Sensei</h4>
+                                <div class="grid-container-for-user-data">
+                                    <div class="grid-basic-user-info">
+                                        <h5><b>Career:</b> Machine Learning, Hero</h5>
+                                    </div>
+                                    <div class="grid-basic-user-info">
+                                        <h5><b>Employed at:</b>Hero Association</h5>
+                                    </div>
+                                    <div class="grid-basic-user-info">
+                                        <h5><b>Date Posted: </b><a href="#">May 16, 2019</a></h5>
+                                    </div>
+                                    <div class="grid-basic-user-info">
+                                        <h5><b>Short Bio</b></h5>
+                                        <div class="short-bio">
+                                            Saitama Sensei is a machine learning engineer that works at Udacity since a couple of years now. He is has developed numerous neural networks systems notably for
+                                            Self-driving cars and machinery in heavy production systems. He comes from England, is married and has two children, the family lives in the town of Manchester.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="blogger-links">
+                                    <div class="grid-social-media-container-links">
+                                        <div class="grid-social-media-element">
+                                            <a href="#" class="link-facebook">LinkedIn</a>
+                                        </div>
+                                        <div class="grid-social-media-element">
+                                            <a href="#" class="link-facebook">Twitter</a>
+                                        </div>
+                                        <div class="grid-social-media-element">
+                                            <a href="#" class="link-facebook">Facebook</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex-info-2">
+                            <h4><a href="https://www.geeksforgeeks.org/top-5-best-programming-languages-for-artificial-intelligence-field/" class="header-link" target="_blank">Prolog</a></h4>
+                            <div class="fake-img" >
+                                <a href="images/prolog.png"> <img src="images/prolog.png"> </a>
+                            </div>
+                            <p>More About Prolog</p>
+                            <div class="post-data">
+                                <p class="para-italic">
+                                    This language stays alongside Lisp when we talk about development in AI field.
+                                    The features provided by it include efficient pattern matching, tree-based data structuring and automatic backtracking.
+                                    All these features provide a surprisingly powerful and flexible programming framework.
+                                    Prolog is widely used for working on medical projects and also for designing expert AI systems.
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </section>
-
+                <aside>
+                    <div class="right-column">
+                        <div class="card rounded-borders" id="popular">
+                            <h3 class="right-column-header">Other Useful Materials</h3>
+                            <div class="fake-img popular-post">
+                                <a href="./aboutPage/about-java.html">
+                                    <div class="img-holder">
+                                        <img src="images/java.png" alt="Language images"/>
+                                        <div class="caption">
+                                            <br/>Java Programming Language
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <hr/>
+                            <div class="fake-img popular-post">
+                            <a href="./aboutPage/about-java.html">
+                                <div class="img-holder">
+                                    <img src="images/java.png" alt="Language images"/>
+                                    <div class="caption">
+                                        <br/>Java Programming Language
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="fake-img popular-post">
+                        <a href="./aboutPage/about-java.html">
+                            <div class="img-holder">
+                                <img src="images/java.png" alt="Language images"/>
+                                <div class="caption">
+                                    <br/>Java Programming Language
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                        </div>
+                    </div>
+                </aside>
             </div>
 
         </main>
