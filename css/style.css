@@ -1,0 +1,91 @@
+/* Styling for the links in the social media */
+
+div.Post_links {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.grid-social-media-container-links{
+    grid-template-columns: auto;
+    display: grid;
+    grid-row-gap: 8px;
+    grid-template-rows: auto auto auto auto auto;
+}
+
+.grid-social-media-element{
+    text-align: center;
+}
+
+.grid-container-for-user-data {
+    grid-template-columns: auto;
+    display: grid;
+    padding-right: 18px;
+    grid-template-rows: auto auto auto;
+}
+
+div.short-bio {
+    font-size: small;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+/* Styling of the owner of the blog post */
+
+a.link-linkedin:hover, a.link-linkedin:visited {
+    background-color: aqua;
+}
+
+a.link-linkedin:link, a.link-linkedin:visited {
+    background-color: #0d3f98;
+    color: #2effe7;
+    padding: 10px 10px;
+    text-align: center;
+    width: 85%;
+    text-decoration: none;
+    display: inline-block;
+    border: 2px solid grey;
+    border-radius: 7px;
+}
+
+a.link-twitter:hover, a.link-twitter:visited {
+    background-color: aqua;
+}
+
+a.link-twitter:link, a.link-twitter:visited {
+    background-color: #0d3f98;
+    color: #2effe7;
+    padding: 10px 10px;
+    text-align: center;
+    width: 85%;
+    text-decoration: none;
+    display: inline-block;
+    border: 2px solid grey;
+    border-radius: 7px;
+}
+
+a.link-facebook:hover, a.link-facebook:visited {
+    background-color: aqua;
+}
+
+a.link-facebook:link, a.link-facebook:visited {
+    background-color: #0d3f98;
+    color: #2effe7;
+    padding: 10px 10px;
+    text-align: center;
+    width: 85%;
+    text-decoration: none;
+    display: inline-block;
+    border: 2px solid grey;
+    border-radius: 7px;
+}
+div.mass-info {
+    text-align: justify;
+    text-justify: inter-word;
+}
+.owner {
+    text-align: center;
+    padding-right: 0;
+}
+
+
+

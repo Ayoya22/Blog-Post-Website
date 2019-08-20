@@ -1,0 +1,20 @@
+.flex-image-card div.flex-info-1 {
+    width: 30%;
+}
+
+.flex-image-card div.flex-info-2 {
+    width: 70%;
+}
+
+.flex-container-menu {
+    justify-content: center;
+    display: flex;
+}
+
+.flex-image-card {
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: flex;
+}
+
+
