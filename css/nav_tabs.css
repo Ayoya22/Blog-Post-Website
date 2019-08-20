@@ -1,0 +1,37 @@
+li.nav-tabs-elements {
+    float: left;
+    padding: 0;
+}
+
+li.nav-tabs-elements a {
+    display: block;
+    color: #17f8ff;
+    text-align: center;
+    padding: 12px 15px;
+    text-decoration: none;
+}
+
+
+ul.nav-tabs {
+    overflow: hidden;
+    background-color: #225b98;
+    border-radius: 8px;
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+.active {
+
+    background-color: #e9b7ff;
+    color: gray;
+}
+
+.active a {
+    color: gray;
+}
+
+li.nav-tabs-elements a:hover:not(.active) {
+    background-color: #e9b7ff;
+    color: gray;
+}
